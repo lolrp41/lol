@@ -1,0 +1,226 @@
+/dota2-website
+    /css
+        styles.css
+    /js
+        scripts.js
+    index.html
+    heroes.html
+    register.html
+    contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTA 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="heroes.html">Герои</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Добро пожаловать в DOTA 2!</h1>
+        <p>Последние новости и обновления игры.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 DOTA 2. Все права защищены.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Герои DOTA 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="heroes.html">Герои</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Герои DOTA 2</h1>
+        <ul>
+            <li>Anti-Mage</li>
+            <li>Juggernaut</li>
+            <li>Pudge</li>
+            <!-- Добавьте остальных героев -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 DOTA 2. Все права защищены.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="heroes.html">Герои</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Регистрация</h1>
+        <form id="registerForm">
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 DOTA 2. Все права защищены.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="heroes.html">Герои</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Контакты</h1>
+        <p>Свяжитесь с нами по электронной почте: <a href="mailto:savvadima244@gmail.com">savvadima244@gmail.com</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 DOTA 2. Все права защищены.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0;
+}
+
+form input {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #666;
+}
+document.getElementById('registerForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    // Здесь можно добавить обработку данных, например, отправку на сервер
+
+    alert(`Пользователь ${username} успешно зарегистрирован!`);
+});
